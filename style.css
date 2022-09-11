@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 50px 0px;
+    background:radial-gradient(white,#00D1FF)no-repeat fixed;
+    position: relative;
+    font-family: 'Poppins';
+    
+}
+
+input[type="text"]{
+    width: 450px;
+    height: 81px;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin-bottom: 25px;
+    font-family: Arial;
+}
+button{
+    padding: 10px 20px;
+    width: 100px;
+    height: 60px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    border:whitesmoke;
+    border-radius: 150px;
+    cursor: pointer;
+}
+
+.kalimat{
+    color:black;
+    width: 450px;
+    height: 76px;
+    left: 545px;
+    top: 5px;
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 32px;
+    font-weight:600;
+    
+}
+.hasil{
+
+}

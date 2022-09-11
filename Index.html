@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KALKULATOR</title>
+    <link rel="stylesheet"href="./bootstrap-5.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">      
+  </head>
+  <body>
+
+    <form name="kalkulator">
+      <div class="kalimat">KALKULATOR SEDERHANA</div>
+      <table align="center">
+        <tr>
+            <td colspan="4"><input type="text" name="result" placeholder="0"
+            style="text-align:right"></td>
+        </tr>
+        <tr>
+          <td>
+            <button type="button" onclick="clrall(value)" class="btn btn-primary custom-button">AC</button>
+          </td>
+        <td>
+          <button type="button" value="%" onclick="persen()" class="btn btn-primary">%</button>
+        </td>
+        <td>
+          <button type="button" value="tandaBilangan" onclick="tandaBilangan()" class="btn btn-primary">-/+</button>
+        </td>
+        <td>
+          <button type="button" value="/" onclick="angka(value)" class="btn btn-primary">/</button>
+        </td>
+        </tr>
+
+        <tr>
+          <td>
+           <button type="button" value="1" onclick="angka(value)" class="btn btn-primary">1</button>
+         </td>
+         <td>
+          <button type="button" value="2" onclick="angka(value)" class="btn btn-primary">2</button>
+        </td>
+        <td>
+          <button type="button" value="3" onclick="angka(value)" class="btn btn-primary">3</button>
+        </td>
+        <td>
+          <button type="button" value="*" onclick="angka(value)" class="btn btn-primary">*</button>
+        </td>
+        
+         </tr>
+        <tr>
+         <td>
+          <button type="button" value="4" onclick="angka(value)" class="btn btn-primary">4</button>
+        </td>
+        <td>
+         <button type="button" value="5" onclick="angka(value)" class="btn btn-primary">5</button>
+       </td>
+       <td>
+         <button type="button" value="6" onclick="angka(value)" class="btn btn-primary">6</button>
+       </td>
+       <td>
+         <button type="button" value="-" onclick="angka(value)" class="btn btn-primary">-</button>
+       </td>
+      </tr>
+      <tr>
+        <td>
+         <button type="button" value="7" onclick="angka(value)" class="btn btn-primary">7</button>
+       </td>
+       <td>
+        <button type="button" value="8" onclick="angka(value)" class="btn btn-primary">8</button>
+      </td>
+      <td>
+        <button type="button" value="9" onclick="angka(value)" class="btn btn-primary">9</button>
+      </td>
+      <td>
+        <button type="button" value="+" onclick="angka(value)" class="btn btn-primary">+</button>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <button type="button" value="hapus" onclick="hapus()" class="btn btn-info">C</button>
+     </td>
+     <td>
+      <button type="button" value="0" onclick="angka(value)" class="btn btn-primary">o</button>
+    </td>
+    <td>
+      <button type="button" value="." onclick="angka(value)" class="btn btn-primary">.</button>
+    </td>
+    <td colspan="2">
+      <button type="button" value="=" onclick="hasil()" class="btn btn-primary">=</button>
+    </td>
+   </tr>
+      </table>
+
+    </form>
+    <script src="./bootstrap-5.2.0/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
