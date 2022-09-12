@@ -15,6 +15,16 @@ input[type="text"]{
     margin-bottom: 25px;
     font-family: Arial;
 }
+.container{
+    background-color: whitesmoke;
+    width: 90%;
+    height: 590px;
+    max-width: 500px;
+    border-radius: 32px;
+    background: #ECE8E8;
+    box-shadow: 7px 7px 14px #828282, -7px -7px 14px #ffffff;
+    overflow: hidden;
+}
 button{
     padding: 10px 20px;
     width: 100px;
@@ -25,20 +35,15 @@ button{
     border-radius: 150px;
     cursor: pointer;
 }
-
 .kalimat{
     color:black;
     width: 450px;
     height: 76px;
-    left: 545px;
+    left: 600px;
     top: 5px;
     position: relative;
     font-family: 'Poppins';
     font-style: normal;
     font-size: 32px;
     font-weight:600;
-    
-}
-.hasil{
-
 }
