@@ -34,6 +34,7 @@ button{
     border:whitesmoke;
     border-radius: 150px;
     cursor: pointer;
+    box-shadow: 7px 7px 14px #828282, -7px -7px 14px #ffffff;
 }
 .kalimat{
     color:black;
